@@ -1,1 +1,53 @@
-c.println("hello");
+#include <stdio.h>
+#include <string.h>
+#include <stdlib.h>
+#include <math.h>
+
+void scan_user();
+void call_scan_user();
+void calc_diff();
+void search_position();
+
+double lat1, lat2, long1, long2, alt1, alt2;
+char other_user[];
+
+
+int main(){
+}
+
+struct user_t {
+    float position;
+    double time;
+};
+
+struct our_user {
+};
+
+void scan_user(){
+}
+
+void call_scan_user(){
+}
+
+
+void search_position(){
+FILE *var1;
+
+}
+
+
+void calc_diff(){
+
+double latsum2, longsum2, altsum2;
+double totalSum2;
+double totalSum2sqrt;
+
+latsum2 = (lat1 - lat2)*(lat1 - lat2);
+longsum2 = (long1 - long2)*(long1 - long2);
+altsum2 = (alt1 - alt2)*(alt1 - alt2);
+
+totalSum2 = latsum2 + longsum2 + altsum2;
+
+totalSum2sqrt = sqrt(totalSum2);
+
+}
